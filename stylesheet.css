@@ -1,0 +1,162 @@
+body {
+  font-family: "Hiragino Kaku Gothic ProN";
+  margin:0
+}
+header {
+  background-color: rgba(128,128,128,0.9);
+  height: 65px;
+  width: 100%;
+  /* ↓header スライドさせ動く */
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+}
+.header-left {
+  float: left;
+}
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 8px 40px;
+  color: white;
+}
+.header-list {
+  font-size: 18px;
+  padding: 1px 0px;
+  display: inline-block;
+}
+.header-right{
+  float: right;
+  background-color: rgba(255,255,255,0.3);
+  transition: all 0.8s;
+}
+.header-right:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  background-image: url(https://images.birthday.gift/wp-content/uploads/2019/07/main6.jpg);
+  padding: 150px 0 100px 0;
+  color: white;
+  background-size: cover;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  opacity: 0.9;
+  letter-spacing: 3px;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  background-color: green;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+.btn-wrapper{
+  margin: 10 0px;
+}
+
+.fa {
+  margin-right: 10px;
+}
+
+.menu-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding: 60px 0 30px 0;
+  color: #5f5d60
+}
+
+.heading h2 {
+  font-weight: bolder;
+}
+.select-icons {
+  float: left;
+  width: 50%;
+}
+.icon {
+  position: relative;
+}
+.icon p {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  font-size: 30px;
+}
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 24px;
+  color: #5f5d60;
+}
+.help {
+  background-color: #239b76;
+  padding: 15px 40px ;
+  float: right;
+  margin: 0 350px 0 0 ;
+  box-shadow: 0 7px #1a7940;
+}
+.help:active {
+  box-shadow: none;
+  position: relative;
+  top: 9px;
+}
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+}
+.message-container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.message-heading {
+  padding: 40px 0 0 100px;
+}
+
+footer {
+  background-color: grey;
+  heist: 60px;
+  padding: 30px 0;
+  color: white;
+}
+.footer-list li {
+  margin: 20px;
+}
